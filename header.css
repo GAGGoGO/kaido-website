@@ -1,0 +1,1865 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.the-main-div {
+   display: flex;
+   justify-content: baseline;
+   height: 1000px;
+   max-width: 1440px;
+   overflow: hidden;
+   z-index: 1000;
+}
+
+.section1 {
+    width: 600px;
+    height: 1090px;
+    display: inline-block;
+}
+
+.logo-div {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+}
+
+.logo-div-div {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    width: 200px;
+}
+
+.kaido-logo {
+    width: 450px;
+    margin-left: 45px;
+}
+
+.heading-section1 {
+    margin: 0;
+    color: white;
+    font-size: 63px;
+    margin-left: 45px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.contact1 {
+    width: 470px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 45px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-width: 2.5px;
+    transition: 0.4s;
+}
+
+.contact1:hover {
+    background-color: white;
+    cursor: pointer;
+    .contact-info1 {
+        color: black;
+    }
+}
+
+.contact1:active{
+   
+    background-color: rgba(255, 255, 255, 0.517);
+    cursor: pointer;
+    .contact-info1 {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.492);
+        font-size: 18px;
+        font-family: inter, Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
+}
+
+.contact2:hover {
+    background-color: white;
+    cursor: pointer;
+    .contact-info1 {
+        color: black;
+    }
+}
+
+.contact2:active{
+    background-color: rgba(255, 255, 255, 0.517);
+    cursor: pointer;
+    .contact-info1 {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.492);
+        font-size: 18px;
+        font-family: inter, Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
+}
+
+
+.pic-contact1 {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #1a1a1a;
+    margin-left: 20px;
+    background-image: url(images/3FD31F34-A587-4301-9557-7C78A9706FBC.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 165px;
+}
+
+.pic-contact2 {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #1a1a1a;
+    margin-left: 20px;
+    background-image: url(images/D9466812-CBA2-4FDB-A8D4-EA77B285BC6E.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 165px;
+}
+
+.contact-info1-div {
+    width: 270px;
+    margin-left: 20px;
+}
+
+.contact-info1 {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+
+
+.contact2 {
+    width: 470px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 45px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    border-width: 2.5px;
+    transition: 0.4s;
+}
+
+.contact-options1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-options {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.phone-call-icon  {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.call-now-h1 {
+    margin: 0;
+    font-size: 20px;
+    font-family: inter;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+}
+
+.icon-div {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-option-p {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.phone-number1 {
+    width: 480px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-width: 2.5px;
+    transition:  0.4s;
+}
+
+.phone-number1:hover {
+    background-color: white;
+
+    .number1 {
+        color: black;
+    }
+
+    .actual-number1 {
+        color: black;
+    }
+
+    .numbe2 {
+        color: black;
+    }
+    
+    cursor: pointer;
+}
+
+.number1  {
+    font-size: 23px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 30px;
+   display: inline;
+   color: white;
+   overflow: hidden;
+}
+
+.numbe2 {
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.568);
+    overflow: hidden;
+}
+
+.actual-number1 {
+    font-size: 25px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.phone-number {
+    width: 480px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-width: 2.5px;
+    transition: 0.4s;
+
+}
+
+.phone-number:hover {
+    background-color: white;
+
+    .number {
+        color: black;
+    }
+
+    .actual-number {
+        color: black;
+    }
+
+    .numbe1 {
+        color: black;
+    }
+    
+    cursor: pointer;
+}
+
+
+
+.number {
+    font-size: 23px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 30px;
+   display: inline;
+   color: white;
+   overflow: hidden;
+}
+
+.actual-number {
+    font-size: 25px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    overflow: hidden;
+} 
+
+.numbe1 {
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 20px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.568);
+    overflow: hidden;
+}
+
+.div-copy-heading {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-number1 {
+    width: 480px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-width: 2.5px;
+    overflow: hidden;
+}
+
+
+.left-side {
+    margin-left: 20px;
+}
+
+.numbe2 {
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 20px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.568);
+    overflow: hidden;
+}
+
+.section2 {
+    width: 920px;
+    height: 1090px;
+    overflow: hidden;
+}
+
+.video-div {
+    width: 900px;
+    height: 830px;
+    background-color: lightpink;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.339);
+    width: 900px;
+    height: 830px;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.glass-nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(249, 249, 249, 0.5);  
+    backdrop-filter: blur(5px);
+    position: absolute;
+    overflow: hidden;
+}
+
+.noise-nav-bar {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-image: url(white-noise-1400x825-1.jpg);
+    background-size: contain;
+    background-position: center;
+    z-index: 5;
+    opacity: 7%;
+    overflow: hidden;
+}
+
+.phone-number5 {
+    width: 860px;
+    height: 140px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin-right: 40px;
+    border-width: 2.5px;
+    margin-top: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collaboration {
+    font-size: 23px;
+    font-family: inter;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    margin: 0;
+    margin-top: 43px;
+    margin-left: 20px;
+}
+
+.ready-you-are {
+    font-size: 15px;
+    font-family: inter;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -0.7px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.email-us-button-style {
+    font-size: 20px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    background: none;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.email-us-button-style:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-bar-contact-page {
+    position: absolute;
+    z-index: 100000;
+    display: flex;
+    margin-top: 20px;
+}
+
+.button-nav-bar-call {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: none;
+    font-size: 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 25px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    border-width: 1.5px;
+    letter-spacing: -1px;
+    color: white;
+    margin-left: 640px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.button-nav-bar-call:hover {
+    background: none;
+    font-size: 20px;
+    border: solid;
+    border-color: white;
+    border-radius: 25px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    border-width: 1.5px;
+    letter-spacing: -1px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-bar-icon-div {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+body {
+    height: 100%;
+}
+
+.footer-section * {
+    color: white;
+}
+
+.footer-main-div {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    margin-top: 25px; 
+}
+
+.footer-section {
+    display: flex;
+    justify-content: baseline;
+} 
+
+.left-sectio-footer-div {
+    width: 50%;
+    height: 475px;
+    background-color: rgba(173, 216, 230, 0);
+}
+
+.lets-talk-div1 {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+} 
+
+.lets-talk-footer1 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+.lets-talk-div2 {
+    width: 100%;
+}
+
+.lets-talk-footer2-email {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.phone-number-footer {
+    width: 230px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.lets-talk-footer3 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.actual-number-footer {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.collaborate-numbers-footer {
+    width: 230px;
+    height: 100px;
+    margin-top: 35px;
+}
+
+.lets-talk-div3 {
+    display: flex;
+    justify-content: baseline;
+    margin-left: 40px;
+}
+
+.email-adress-footer-input {
+    width: 570px;
+    height: 50px;
+    display: flex;
+    justify-content: baseline;
+    margin-left: 40px;
+}
+
+.input-email-adress::placeholder {
+    font-size: 27px;
+    letter-spacing: -0.5px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.700);
+    margin: 0;
+}
+
+input[type=text] {
+    border-bottom: white solid 2px;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 13px;
+    padding-left: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+    border-bottom: white solid 2px;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 13px;
+    padding-left: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+
+  .input-email-adress {
+    width: 500px;
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: -0.5px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .email-adress-submit-button {
+    margin-top: 2px;
+  }
+
+
+  .button-email-arrow-footer {
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: white solid 2px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  
+
+.about-submitting-email-footer-p {
+    font-size: 15px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+.rigth-section-footer-div {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.rigth-section-footer-div-top1 {
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+}
+
+.behance-footer-link {
+    font-size: 23px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    padding: 13px 18px;
+    border: solid white 2px;
+    background: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 330px;
+}
+
+.behance-footer-link4 {
+    font-size: 23px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    padding: 13px 18px;
+    border: solid white 2px;
+    background: none;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+
+.behance-footer-link4:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.all-rights-reserved-footer {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 20px;
+    margin-left:10px;
+}
+
+.last-section-footer {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.the-p-ahead-of-the-big-kaido-div {
+    display: flex;
+    justify-content: center;
+}
+
+.the-p-ahead-of-the-big-kaido {
+    font-size: 23px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+.the-big-kaido {
+    font-size: 475px;
+    font-family: inter, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -40px;
+    color: white;
+    margin: 0;
+    
+}
+
+.the-big-kaido-h1-div {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+.link-send-email {
+    text-decoration: none;
+}
+
+.contact-option:hover {
+    cursor: pointer;
+}
+
+.behance-footer-link {
+    transition: 0.4s;
+}
+
+.behance-footer-link:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.div-message-div {
+    width: 100%;
+}
+
+.div-message-div1 {
+    width: 100%;
+}
+
+.div-message-div {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .the-big-kaido {
+        font-size: 195px;
+        letter-spacing: -8px;
+    }
+
+    .contact-option {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 21px;
+    }
+    
+    .contact-option3 {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+    }
+    
+    .contact-option10 {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 47px;
+        margin-right: 20px;
+    }
+
+    .contact1 {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .contact2 {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .main-div-contact1 {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .main-div-contact2 {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+
+    .footer-main-div {
+        height: 855px;
+        display: block;
+    }
+
+    .section1 {
+        width: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+
+    .rigth-section-footer-div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .all-rights-reserved-footer {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .footer-section {
+        display: block;
+    }
+
+    .behance-footer-link {
+        margin: 0;
+        scale: 0.8;
+    }
+
+    .behance-footer-link4 {
+        margin: 0;
+        scale: 0.8;
+    }
+
+    .all-rights-reserved-footer-div {
+        display: block;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .rigth-section-footer-div-top1 {
+        display: block;
+    }
+
+    .behance-footer-link-div {
+        width: 150;
+        margin: 0;
+        margin-bottom: 70px;
+        height: 0;
+    }
+
+    .logo-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rigth-section-footer-div {
+        display: flex;
+        justify-content: baseline;
+    }
+
+    .all-rights-reserved-footer {
+        font-size: 15px;
+    }
+
+    .all-rights-reserved-footer-div {
+        display: none;
+    }
+
+    .the-p-ahead-of-the-big-kaido {
+        font-size: 16px;
+    }
+
+
+    .input-email-adress {
+        width: 400px;
+    
+    }
+
+    .about-submitting-email-footer-p {
+        font-size: 13px;
+    }
+
+    .actual-number-footer {
+        font-size: 15px;
+    }
+
+    .lets-talk-footer3 {
+        font-size: 20px;
+    }
+
+    .phone-number-footer {
+        margin-right: 50px;
+    }
+
+    .collaborate-numbers-footer {
+        width: 0px;
+    }
+
+    .actual-number-footer {
+        width: 200px;
+    }
+
+    email-adress-footer-input {
+        margin-top: 10px;
+    }
+
+    .about-submitting-email-footer-p-div {
+        margin-bottom: 0;
+    }
+
+    .rigth-section-footer-div {
+        margin-top: 0;
+    }
+
+    .section2 {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 601px) {
+
+    .the-p-ahead-of-the-big-kaido {
+        font-size: 18px;
+    }
+
+    .contact2 {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .phone-number {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .phone-number1 {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .contact-option {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 21px;
+    }
+    
+    .contact-option3 {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+    }
+    
+    .contact-option10 {
+        border: solid;
+        border-color: white;
+        width: 75%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+   
+    .main-div-contact2 {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .the-big-kaido {
+        font-size: 220px;
+        letter-spacing: -8px;
+    }
+
+    .contact1 {
+        margin-left: 45px;
+        margin-right: 0px;
+        width: 84.5%;
+    }
+
+    .main-div-contact1 {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+
+    .footer-main-div {
+        height: 855px;
+        display: block;
+    }
+
+    .section1 {
+        width: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+
+    .rigth-section-footer-div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .all-rights-reserved-footer {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .footer-section {
+        display: block;
+    }
+
+    .behance-footer-link {
+        margin: 0;
+        scale: 0.8;
+    }
+
+    .all-rights-reserved-footer-div {
+        display: block;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .rigth-section-footer-div-top1 {
+        display: block;
+    }
+
+    .behance-footer-link-div {
+        width: 150;
+        margin: 0;
+        margin-bottom: 70px;
+        height: 0;
+    }
+
+    .logo-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rigth-section-footer-div {
+        display: flex;
+        justify-content: baseline;
+    }
+
+    .all-rights-reserved-footer {
+        font-size: 15px;
+    }
+
+    .all-rights-reserved-footer-div {
+        display: none;
+    }
+
+    .the-p-ahead-of-the-big-kaido {
+        font-size: 16px;
+    }
+
+
+    .input-email-adress {
+        width: 400px;
+    
+    }
+
+    .about-submitting-email-footer-p {
+        font-size: 13px;
+    }
+
+    .actual-number-footer {
+        font-size: 15px;
+    }
+
+    .lets-talk-footer3 {
+        font-size: 20px;
+    }
+
+    .phone-number-footer {
+        margin-right: 50px;
+    }
+
+    .collaborate-numbers-footer {
+        width: 0px;
+    }
+
+    .actual-number-footer {
+        width: 200px;
+    }
+
+    email-adress-footer-input {
+        margin-top: 10px;
+    }
+
+    .about-submitting-email-footer-p-div {
+        margin-bottom: 0;
+    }
+
+    .rigth-section-footer-div {
+        margin-top: 0;
+    }
+
+    .section2 {
+        display: none;
+    }
+
+    .behance-footer-link4 {
+        margin: 0;
+        scale: 0.8;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .the-p-ahead-of-the-big-kaido {
+        font-size: 20px;
+    }
+
+    .contact-option {
+        border: solid;
+        border-color: white;
+        width: 65%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 21px;
+    }
+    
+    .contact-option3 {
+        border: solid;
+        border-color: white;
+        width: 65%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+    }
+    
+    .contact-option10 {
+        border: solid;
+        border-color: white;
+        width: 65%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 45px;
+        margin-right: 20px;
+    }
+
+    .the-big-kaido {
+        font-size: 270px;
+    }
+
+    .footer-main-div {
+        height: 895px;
+        display: block;
+    }
+
+    .input-email-adress {
+        width: 500px;
+    
+    }
+
+    .about-submitting-email-footer-p {
+        font-size: 17px;
+    }
+
+    .actual-number-footer {
+        font-size: 15px;
+    }
+
+    .lets-talk-footer3 {
+        font-size: 25px;
+    }
+
+    .behance-footer-link {
+        margin: 0;
+        margin-left: 30px;
+        scale: 1;
+    }
+
+    .behance-footer-link4 {
+        margin: 0;
+        margin-left: 30px;
+        scale: 1;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .the-p-ahead-of-the-big-kaido {
+        font-size: 22px;
+    }
+    .contact-option {
+        border: solid;
+        border-color: white;
+        width: 80%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin: 0;
+        margin-left: 22px;
+    }
+    
+    .contact-option3 {
+        border: solid;
+        border-color: white;
+        width: 80%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin: 0;
+    }
+    
+    .contact-option10 {
+        border: solid;
+        border-color: white;
+        width: 80%;
+        height: 130px;
+        border-radius: 15px;
+        display: block;
+        border-width: 2.5px;
+        margin-left: 45px;
+        margin: 0;
+        margin-left: 45px;
+    }
+
+    .the-big-kaido {
+        font-size: 330px;
+    }
+
+    .footer-main-div {
+        height: 945px;
+        display: block;
+    }
+
+    .input-email-adress {
+        width: 500px;
+    
+    }
+
+    .about-submitting-email-footer-p {
+        font-size: 17px;
+    }
+
+    .actual-number-footer {
+        font-size: 15px;
+    }
+
+    .lets-talk-footer3 {
+        font-size: 25px;
+    }
+
+    .behance-footer-link {
+        margin: 0;
+        margin-left: 30px;
+        scale: 1;
+    }
+
+    .section1 {
+        width: 50%;
+    }
+
+    .section2 {
+        display: block;
+        width: 50%;
+    }
+
+    .icondiv-img {
+        display: none;
+    }
+
+    .contact-info1 {
+        font-size: 15px;
+    }
+
+
+    .button-nav-bar-call {
+        margin: 0;
+        margin-top: 8px;
+        margin-right: 25px;
+    }
+
+    .nav-bar-contact-page {
+        justify-content: space-between;
+        display: flex;
+        width: 50%;
+    }
+
+    .phone-number5 {
+        width: 97%;
+        margin-top: 22px;
+    }
+
+    .email-us-button-style {
+        padding: 6px 20px;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+
+}
+
+    @media (min-width: 1200px) {
+
+
+        .footer-main-div {
+            width: 100%;
+            height: 900px;
+            background-color: black;
+            overflow: hidden;
+            position: sticky;
+            margin-top: 25px; 
+        }
+        
+        .footer-section {
+            display: flex;
+            justify-content: baseline;
+        } 
+        
+        .left-sectio-footer-div {
+            width: 50%;
+            height: 475px;
+            background-color: rgba(173, 216, 230, 0);
+        }
+        
+        .lets-talk-div1 {
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 40px;
+        } 
+        
+        .lets-talk-footer1 {
+            font-size: 23px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            margin-left: 40px;
+        }
+        
+        .lets-talk-div2 {
+            width: 100%;
+        }
+        
+        .lets-talk-footer2-email {
+            font-size: 38px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+            text-underline-offset: 13px;
+            margin: 0;
+            margin-left: 40px;
+        }
+        
+        .phone-number-footer {
+            width: 230px;
+            height: 100px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .lets-talk-footer3 {
+            font-size: 23px;
+            font-weight: bold;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            letter-spacing: -0.5px;
+            margin: 0;
+        }
+        
+        .actual-number-footer {
+            font-size: 18px;
+            font-weight: 500;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            letter-spacing: -0.5px;
+            margin: 0;
+            margin-top: 5px;
+        }
+        
+        .collaborate-numbers-footer {
+            width: 230px;
+            height: 100px;
+            margin-top: 35px;
+        }
+        
+        .lets-talk-div3 {
+            display: flex;
+            justify-content: baseline;
+            margin-left: 40px;
+        }
+        
+        .email-adress-footer-input {
+            width: 570px;
+            height: 50px;
+            display: flex;
+            justify-content: baseline;
+            margin-left: 40px;
+        }
+        
+        .input-email-adress::placeholder {
+            font-size: 27px;
+            letter-spacing: -0.5px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: hsla(0, 0%, 100%, 0.700);
+            margin: 0;
+        }
+        
+        input[type=text] {
+            border-bottom: white solid 2px;
+            background: none;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            padding-top: 13px;
+            padding-left: 0;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+          }
+        
+          input[type=text]:focus {
+            outline: none;
+            border-bottom: white solid 2px;
+            background: none;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            padding-top: 13px;
+            padding-left: 0;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+          }
+        
+          .input-email-adress {
+            width: 500px;
+            margin: 0;
+            font-size: 27px;
+            letter-spacing: -0.5px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: hsl(0, 0%, 100%);
+          }
+        
+          .email-adress-submit-button {
+            margin-top: 2px;
+          }
+        
+        
+          .button-email-arrow-footer {
+            background: none;
+            border-radius: 0;
+            border: none;
+            border-bottom: white solid 2px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 35px;
+          }
+          
+        
+        .about-submitting-email-footer-p {
+            font-size: 15px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            letter-spacing: -0.5px;
+            margin: 0;
+            margin-left: 40px;
+            margin-top: 2px;
+        }
+        
+        .rigth-section-footer-div {
+            width: 50%;
+            margin-top: 40px;
+        }
+        
+        .rigth-section-footer-div-top1 {
+            display: flex;
+            justify-content: baseline;
+            width: 100%;
+        }
+        
+        .behance-footer-link {
+            font-size: 23px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            letter-spacing: -0.5px;
+            padding: 13px 18px;
+            border: solid white 2px;
+            background: none;
+            border-radius: 30px;
+            margin-top: 15px;
+            margin-left: 330px;
+        }
+
+        .behance-footer-link4 {
+            font-size: 23px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            letter-spacing: -0.5px;
+            padding: 13px 18px;
+            border: solid white 2px;
+            background: none;
+            border-radius: 30px;
+            margin-bottom: 15px;
+            margin-left: 2%;
+        }
+        
+        .all-rights-reserved-footer {
+            font-size: 18px;
+            font-weight: 500;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            margin: 0;
+            margin-top: 20px;
+            margin-left:10px;
+        }
+        
+        .last-section-footer {
+            width: 100%;
+            margin-top: 35px;
+        }
+        
+        .the-p-ahead-of-the-big-kaido-div {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .the-p-ahead-of-the-big-kaido {
+            font-size: 23px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: white;
+            margin: 0;
+        }
+        
+        .the-big-kaido {
+            font-size: 475px;
+            font-family: inter, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            letter-spacing: -40px;
+            color: white;
+            margin: 0;
+            
+        }
+        
+        .the-big-kaido-h1-div {
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            width: 100%;
+        }
+        
+        .link-send-email {
+            text-decoration: none;
+        }
+        
+        .contact-option:hover {
+            cursor: pointer;
+        }
+        
+        .behance-footer-link {
+            transition: 0.4s;
+        }
+        
+        .behance-footer-link:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+
+        }
+
+        .all-rights-reserved-footer-div {
+            display: inline-block;
+        }
+
+        .behance-footer-link-div {
+            width: 100%;
+           display: block;
+        }
+
+        .rigth-section-footer-div {
+            display: block;
+            justify-content: end;
+        }
+
+        .buutons-footer-section {
+            display: inline-block;
+        }
+
+        .all-rights-reserved-footer {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .rigth-section-footer-div-top1 {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .buutons-footer-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rigth-section-footer-div-top1 {
+            margin: 0;
+            width: 50px;
+        }
+
+        .behance-footer-link {
+            margin: 0;
+            margin-bottom: 13px;
+        }
+
+       .all-rights-reserved-footer-div {
+            margin: 0;
+            margin-right: 50px;
+       }
+
+       .the-big-kaido {
+        font-size: 420px;
+        margin-right: 35px;
+        letter-spacing: -25px;
+       }
+
+       .buutons-footer-section {
+            display: space-between;
+       }
+
+       .all-rights-reserved-footer {
+            margin: 0;
+       }
+
+       .all-rights-reserved-footer-div {
+            margin: 0;
+       }
+
+       .buutons-footer-section {
+        display: block;
+   }
+
+   .behance-footer-link {
+    margin-left: 35%;
+   }
+
+   .rigth-section-footer-div-top1 {
+        width: 150px;
+        margin-left: 35%;
+   }
+
+   .contact-option {
+    border: solid;
+    border-color: white;
+    width: 146.5px;
+    height: 130px;
+    border-radius: 15px;
+    display: block;
+    border-width: 2.5px;
+    margin: 0;
+    margin-left: 9px;
+}
+
+.contact-option3 {
+    border: solid;
+    border-color: white;
+    width: 146.5px;
+    height: 130px;
+    border-radius: 15px;
+    display: block;
+    border-width: 2.5px;
+    margin: 0;
+    margin-left: 18px;
+}
+
+.contact-option10 {
+    border: solid;
+    border-color: white;
+    width: 146.5px;
+    height: 130px;
+    border-radius: 15px;
+    display: block;
+    border-width: 2.5px;
+    margin-left: 45px;
+    margin: 0;
+}
+
+.section2 {
+    width: 60%;
+}
+
+.section1 {
+    width: 600px;
+}
+
+.contact-options1 {
+    width: 100%;
+}
+
+.div-message-div {
+    width: 0;
+    margin: 0;
+}
+
+.div-message-div1 {
+    width: 0;
+}
+
+.div-message-div {
+    width: 0%;
+}
+
+.div-message-div1 {
+    width: 0%;
+}
+
+.div-message-div {
+    width: 0%;
+}
+
+.contact-options1 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 45px;
+}
+
+.contact1 {
+    width: 465px;
+}
+
+.contact2 {
+    width: 465px;
+}
+
+.phone-number {
+    width: 465px;
+}
+
+.phone-number1 {
+    width: 465px;
+}
+
+.contact-info1 {
+    font-size: 18px;
+}
+
+.button-nav-bar-call {
+    margin-right: 0;
+}
+
+.nav-bar-contact-page {
+    width: 54.5%;
+}
+ 
+}
