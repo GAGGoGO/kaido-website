@@ -37,6 +37,8 @@ body {
 .kaido-logo {
     width: 250px;
     margin-left: 45px;
+    object-fit: contain;
+    height: auto;
 }
 
 .heading-section1 {
