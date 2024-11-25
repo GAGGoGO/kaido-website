@@ -1865,3 +1865,7 @@ input[type=text] {
 }
  
 }
+
+.button-email-arrow-footer {
+    margin-top: 0;
+}
